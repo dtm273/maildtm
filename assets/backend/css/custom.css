@@ -1,0 +1,45 @@
+/* GENERAL */
+h3.heading{	
+	text-transform:uppercase;
+}
+h3.heading a{
+	text-transform:none;
+}
+.ajax_waiting{
+  display:none;	
+}
+.antiscroll-inner{
+	overflow:hidden;
+}
+
+/* GALLERY */
+#gallery-container, #gallery-container-driver-lisence, #gallery-container-number-plate {
+    clear: both;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+#gallery-container, #gallery-container-driver-lisence, #gallery-container-number-plate li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #DDDDDD;
+    cursor: move;
+    float: left;
+    height: 105px;
+    margin: 5px;
+    overflow: hidden;
+    padding: 3px;
+    width: 114px;
+}
+#gallery-container li img, #gallery-container-driver-lisence li img, #gallery-container-number-plate li img{
+    border: 0 none;
+    height: 85px;
+    margin: 0 0 5px;
+    padding: 0;
+    width: 114px;
+}
+#gallery-container a.remove, #gallery-container-number-plate a.remove,  #gallery-container-driver-lisence a.remove {
+    display: block;
+    float: right;
+    padding: 0 5px;
+}
